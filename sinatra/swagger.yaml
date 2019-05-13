@@ -156,3 +156,5 @@ definitions:
       name: "ACME Corporation"
       homePage: "https://www.acme-corp.com"
 x-azure-api-id: "sh-1557747197073"
+x-aws-api-id: "wutp6s0zdg"
+x-apigee-id: "sprint-28--staging"
