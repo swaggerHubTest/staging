@@ -1,7 +1,7 @@
 ---
 swagger: "2.0"
 info:
-  description: "This is a simple APIs"
+  description: "This is a simple API"
   version: "1.0.0"
   title: "Sprint28-API"
   contact:
