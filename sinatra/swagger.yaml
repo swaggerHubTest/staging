@@ -3,7 +3,7 @@ swagger: "2.0"
 info:
   description: "This is a simple APIs"
   version: "1.0.0"
-  title: "Simple Inventory API"
+  title: "Sprint28-API"
   contact:
     email: "you@your-company.com"
   license:
