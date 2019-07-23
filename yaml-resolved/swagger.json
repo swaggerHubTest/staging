@@ -17,6 +17,8 @@ externalDocs:
   description: Find out more about Swagger
   url: http://swagger.io
 servers:
+- url: https://stage-virtserver.swaggerhub.com/malt-v4-team/yaml-pets/1.0.0
+  description: SwaggerHub API Auto Mocking
 - url: https://stage-virtserver.swaggerhub.com/qa1_org1/yaml-pets/1.0.0
   description: SwaggerHub API Auto Mocking
 tags:
