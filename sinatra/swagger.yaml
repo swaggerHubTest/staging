@@ -47,17 +47,17 @@ paths:
         description: "maximum number of records to return"
         required: false
         type: "integer"
-        maximum: 50
+        maximum: 50.0
         minimum: 0
         format: "int32"
       responses:
-        200:
+        "200":
           description: "search results matching criteria"
           schema:
             type: "array"
             items:
               $ref: "#/definitions/InventoryItem"
-        400:
+        "400":
           description: "bad input parameter"
     post:
       tags:
@@ -77,11 +77,11 @@ paths:
         schema:
           $ref: "#/definitions/InventoryItem"
       responses:
-        201:
+        "201":
           description: "item created"
-        400:
+        "400":
           description: "invalid input, object invalid"
-        409:
+        "409":
           description: "an existing item already exists"
     delete:
       tags:
@@ -101,11 +101,11 @@ paths:
         schema:
           $ref: "#/definitions/InventoryItem"
       responses:
-        201:
+        "201":
           description: "item created"
-        400:
+        "400":
           description: "invalid input, object invalid"
-        409:
+        "409":
           description: "an existing item already exists"
 definitions:
   InventoryItem:
@@ -126,11 +126,11 @@ definitions:
       releaseDate:
         type: "string"
         format: "date-time"
-        example: "2016-08-29T09:12:33.001Z"
+        example: "2016-08-29T09:12:33.001+0000"
       manufacturer:
         $ref: "#/definitions/Manufacturer"
     example:
-      releaseDate: "2016-08-29T09:12:33.001Z"
+      releaseDate: "2016-08-29T09:12:33.001+0000"
       name: "Widget Adapter"
       id: "d290f1ee-6c54-4b01-90e6-d701748f0851"
       manufacturer:
